@@ -46,3 +46,10 @@ Para instalar o React Native com Expo na sua máquina, siga os passos do [artigo
 ## 📚 Mais informações do curso
 
 https://www.alura.com.br/curso-online-react-native-criando-testes-aplicacao
+
+## Durante o curso
+
+Instale o jest-expo
+````
+npx expo install jest-expo jest
+````
