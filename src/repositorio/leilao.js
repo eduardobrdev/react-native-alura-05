@@ -1,8 +1,8 @@
-import apiLeiloes from '../servicos/apiLeiloes';
+import instance from '../servicos/apiLeiloes';
 
 export async function obtemLeiloes() {
   try {
-    const resposta = await apiLeiloes.get(`/leiloes`);
+    const resposta = await instance.get(`/leiloes`);
     return resposta.data;
   } catch (erro) {
     return [];
@@ -11,7 +11,7 @@ export async function obtemLeiloes() {
 
 export async function obtemLeilao(id) {
   try {
-    const resposta = await apiLeiloes.get(`/leiloes/${id}`);
+    const resposta = await instance.get(`/leiloes/${id}`);
     return resposta.data;
   } catch(erro) {
     return {};
