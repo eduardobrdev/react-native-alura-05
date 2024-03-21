@@ -53,3 +53,8 @@ Instale o jest-expo
 ````
 npx expo install jest-expo jest
 ````
+
+Instalando o react testing library(verificar a versão do react do projeto. Neste projeto: 18.2.0)
+````
+npm install --save-dev react-test-renderer@18.2.0 @testing-library/react-native @testing-library/react-hooks
+````
